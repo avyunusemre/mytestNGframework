@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite 4" verbose="2">
+    <test name="Group 1">
+        <groups>
+            <run>
+                <include name="group test1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.techproed.smoketest.NegativeTestGlbSignIn">
+            </class>
+        </classes>
+    </test>
+        
+</suite>
